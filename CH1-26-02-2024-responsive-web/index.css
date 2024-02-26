@@ -1,0 +1,39 @@
+/* h1{
+    font-size: 30px;
+    color: aqua;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 6px;
+        color: black; 
+    }
+} */
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+@media (max-width: 600px){
+    .card {
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+}
+
+.left-section{
+    float: left;
+}
+
+.left-section img{
+    width: 40px;
+}
+
+.right-section{
+    float: right;
+}
+  
+.right-section img {
+    width: 40px;
+}
+  

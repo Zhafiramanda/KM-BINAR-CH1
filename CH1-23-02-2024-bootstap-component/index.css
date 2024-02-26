@@ -1,0 +1,96 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#title{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.feature {
+	border-right: 1px solid #e0e0e0;
+}
+
+
+.feature:last-child {
+	border-right: 1px solid #e0e0e0;
+	border: none;
+}
+
+.button-primary-outline {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    border: 1px solid #933393;
+    border-radius: 8px;
+    align-items: center;
+    padding: 17px 16px;
+    display: flex;
+}
+
+.link-block-20 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    text-decoration: none;
+    display: flex;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+/* .row.featurette{
+	width: 832px;
+	height: 270px;
+	top: 1652px;
+	left: 304px;
+	border-radius: 8px;
+	background: #23d5ab;
+	align-items: center;
+} */
+
+.carousel{
+	width: 832px;
+	height: 270px;
+	margin: auto;
+	background-color: rgba(241, 243, 255, 1);
+}
+
+.carousel-control-prev-icon {
+	background-image: url("./assets/img/Vector-kiri.svg");
+  }
+  
+.carousel-control-next-icon {
+	background-image: url("./assets/images/Vector-kanan.svg");
+}
+
+
+
+/* li: :last-child a{
+	background-position: -100px 7px;
+} */
+
+/* // body --> selector */
+
+/* kalo id pagar
+kalo titik kelas */
